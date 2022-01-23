@@ -1,0 +1,95 @@
+.rowcard{
+    margin-bottom:200%;
+  
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+.col{
+    float:left;
+    width: 25em;
+    height: 32em;
+    padding: 10px;
+    border: 3px solid rgba(13, 14, 17, 0.178) ;
+    box-shadow: 5px 10px #3d2d2d67;
+    margin-left: 30px;
+    margin-bottom: 2%;
+  
+    margin-right: 30px;
+}
+.col img{
+    height: 10em;
+}
+.col:hover{
+   
+    transform: scale(1.1);
+ 
+    background-position: -60px;
+}
+#cat:hover{
+    opacity:0.6;
+    background-color: rgba(0, 0, 0, );
+}
+.titre {
+
+    background:url("1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    opacity: 0.7;
+    padding-top:13%;
+    padding-left: 2%;
+   
+    border: 6px solid ;
+    margin-bottom: 3.5%;
+    margin-top : 10%;
+  }
+h1{
+   
+    font-size: xx-large;
+}
+.nom{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+   
+}
+
+ .btn-effect{
+text-decoration: none;
+color: rgb(255, 255, 255);
+width:40%;
+height: 10%;
+margin: 1px;
+padding: 9px;
+font-size: 1em;
+border-radius:40px;
+text-transform: uppercase;
+
+background: rgb(1, 25, 104);
+transition: transform 500ms ; 
+background-size: contain;
+background-position: -200px center;
+background-repeat: no-repeat;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.btn-effect:hover{
+    transform: scale(1.1);
+    background-color: rgb(62, 81, 168);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+
+    .btn-effect:active{
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+input
+{
+    background:silver;
+    border-radius: 40px;
+    border-color: transparent;
+}  
+label{
+    font-size: medium;
+    color:darkorange;
+}
